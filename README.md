@@ -33,7 +33,7 @@ No bash/macOS:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python Ativdade_07/09/main.py
+python Ativdade_07-09/main.py
 ```
 
 Observação: muitos exemplos deste repositório não dependem de bibliotecas externas; se adicionar dependências, inclua um `requirements.txt` na pasta correspondente.
