@@ -36,7 +36,7 @@ Sistema embarcado para detecção de condições de alarme que utiliza duas "var
 Este repositório contém um exemplo de perceptron implementado em Python. O código demonstra funções para calcular a entrada (soma ponderada) e a saída (função degrau) do perceptron.
 
 ### Arquivos principais
-- `Ativdade_05-09/main.py` — exemplo com `perceptron_input` e `perceptron_output`.
+- `Ativdade_07-09/main.py` — exemplo com `perceptron_input` e `perceptron_output`.
 
 ### Trecho ilustrativo do código
 
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 No Windows PowerShell com Python 3 instalado, rode:
 
 ```pwsh
-python Ativdade_05-09/main.py
+python Ativdade_07-09/main.py
 ```
 
 Se preferir, crie um ambiente virtual e instale dependências (não obrigatórias para este exemplo simples):
