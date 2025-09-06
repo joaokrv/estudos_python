@@ -39,7 +39,6 @@ python Ativdade_05/09/main.py
 Observação: muitos exemplos deste repositório não dependem de bibliotecas externas; se adicionar dependências, inclua um `requirements.txt` na pasta correspondente.
 
 ## Boas práticas para commits e versionamento
-- Faça commits pequenos e com mensagens descritivas.
 - Crie um repositório remoto (GitHub/GitLab) por atividade ou um repositório monolítico com pastas por atividade.
 - Inclua um `README.md` em cada pasta de atividade com: objetivo, explicação conceitual, como executar e resultados esperados.
 
@@ -52,16 +51,6 @@ git commit -m "Adiciona atividade X"
 git remote add origin <URL_DO_REPOSITORIO>
 git push -u origin main
 ```
-
-## Sugestões de workflow para estudos de IA
-- Documente hipóteses e resultados no `README.md` da atividade.
-- Use notebooks (`.ipynb`) para análises experimentais e gráficos.
-- Adicione pequenos testes ou scripts de verificação para garantir que os exemplos executem sem erros.
-
-## Próximos passos recomendados
-- Implementar o algoritmo de treinamento do Perceptron e testar com os conjuntos AND/OR/XOR.
-- Criar notebooks com visualizações das fronteiras de decisão (matplotlib).
-- Adicionar um `requirements.txt` e scripts `run_examples.py` para automatizar execuções.
 
 ## Contribuições
 Este repositório é pessoal (estudos). Se quiser organizar colaborações, indique no `README.md` de cada atividade como contribuir (issues/prs).
