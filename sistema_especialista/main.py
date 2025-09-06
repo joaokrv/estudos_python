@@ -1,5 +1,12 @@
 import tkinter as tk
 from tkinter import ttk
+import collections
+import collections.abc
+if not hasattr(collections, 'Mapping'):
+    collections.Mapping = collections.abc.Mapping
+if not hasattr(collections, 'MutableMapping'):
+    collections.MutableMapping = collections.abc.MutableMapping
+
 from experta import *
 import webbrowser
 
