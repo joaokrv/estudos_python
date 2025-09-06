@@ -1,6 +1,6 @@
 # **Sistema Especialista para Inferência de Sugestões de Refeições**
 
-### 📝 Resumo
+## 📝 Resumo
 
 O repósitorio mostra o protótipo de Sistema Especialista (SE) projetado para auxiliar na tomada de decisão sobre o preparo de refeições. O problema central abordado é a seleção de pratos sob as restrições de tempo de preparo e disponibilidade de ingredientes. Utilizando a linguagem Python, a biblioteca `Experta` como motor de inferência e `Tkinter` para a interface gráfica, o sistema implementa uma base de conhecimento com regras hierárquicas para mapear as entradas do usuário a um conjunto de sugestões de receitas. O artefato de software resultante demonstra a viabilidade do paradigma de sistemas baseados em regras para resolver problemas práticos de recomendação, ao mesmo tempo que evidencia as limitações de uma base de conhecimento estática e acoplada à lógica.
 
@@ -10,13 +10,12 @@ O repósitorio mostra o protótipo de Sistema Especialista (SE) projetado para a
 
 ### 📜 Índice
 
-1.  [Introdução](#1-introdução)
-2.  [Metodologia](#2-metodologia)
-3.  [Implementação Técnica](#3-implementação-técnica)
-4.  [Guia de Utilização](#4-guia-de-utilização)
-5.  [Análise e Limitações](#5-análise-e-limitações)
-6.  [Conclusão e Trabalhos Futuros](#6-conclusão-e-trabalhos-futuros)
-7.  [Autor](#7-autor)
+1. [Introdução](#-1-introdução)
+2. [Metodologia](#2-metodologia)
+3. [Implementação Técnica](#-3-implementação-técnica)
+4. [Guia de Utilizacao](#4-guia-de-utilizacao)
+5. [Conclusão e Trabalhos Futuros](#-5-conclusão-e-trabalhos-futuros)
+6. [Autor](#-6-autor)
 
 ---
 
@@ -26,7 +25,7 @@ A seleção de uma refeição para preparo é um problema de tomada de decisão 
 
 O objetivo deste projeto foi desenvolver um protótipo de software, na forma de um Sistema Especialista, que formaliza o processo de decisão e oferece sugestões lógicas e contextualizadas ao usuário. A aplicação visa servir como uma ferramenta de apoio, trazendo o conhecimento sobre combinações de pratos em uma base de regras.
 
-### 🧠 2. Metodologia
+### 2. Metodologia
 
 A abordagem adotada para a solução do problema foi o desenvolvimento de um sistema baseado em regras, um paradigma clássico de Inteligência Artificial.
 
@@ -51,7 +50,7 @@ A base de regras é composta por um conjunto de regras distintas, cada uma mapea
 
 A lógica é organizada hierarquicamente para abranger todas as combinações possíveis:
 
-```
+``` bash
 Tempo
 ├── Pouco
 │   ├── Frango
@@ -124,7 +123,7 @@ Desenvolvido com as seguintes tecnologias:
 - **Motor de Inferência:** A classe `Sugestao`, que herda de `KnowledgeEngine` da biblioteca `Experta`, encapsula toda a base de regras do sistema.
 - **Interface Gráfica (GUI):** Construída com a biblioteca `Tkinter`. A interface permite ao usuário declarar os fatos iniciais através de widgets `TRadiobutton` para a seleção de tempo e `TCheckbutton` para os ingredientes. Um `TButton` inicia o processo de inferência, e os resultados são exibidos dinamicamente como uma lista de `Label` clicáveis, que acionam a abertura de links de receitas via `webbrowser`.
 
-### ▶️ 4. Guia de Utilização
+### 4. Guia de Utilizacao
 
 #### 4.1. Pré-requisitos
 
@@ -132,15 +131,16 @@ Desenvolvido com as seguintes tecnologias:
 
 #### 4.2. Instalação
 
-1.  **Clone o repositório:**
+1. **Clone o repositório:**
 
     ```sh
     git clone [https://github.com/joaokrv/SERefeicao](https://github.com/joaokrv/SERefeicao)
     cd SERefeicao
     ```
 
-2.  **Instale as dependências:**
+2. **Instale as dependências:**
     Recomenda-se criar um ambiente virtual. O projeto depende da biblioteca `experta`.
+
     ```sh
     pip install experta
     ```
