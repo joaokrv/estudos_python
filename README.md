@@ -8,6 +8,7 @@ Os arquivos e pastas seguem um formato por atividade para facilitar navegação.
 
 - `Ativdade_07-09/` — atividade sobre Perceptron (exemplo mínimo em `main.py`).
 - `...` — outras atividades e exercícios organizados por pasta.
+- `atividade_09_09/` — atividade estendida do Perceptron com duas versões: `perceptron1.py` (2 entradas, sigmoid) e `perceptron2.py` (3 entradas, step).
 
 Mantenha cada atividade dentro de uma pasta própria com um `README.md` explicando o exercício e um arquivo principal (`main.py`, `notebook.ipynb`, etc.).
 
@@ -25,6 +26,13 @@ python -m venv .venv
 python -m pip install --upgrade pip
 # Para rodar um exemplo específico (ex.: perceptron):
 python Ativdade_07-09/main.py
+
+# Exemplos da atividade estendida (atividade_09_09):
+# - perceptron1.py (2 entradas, usa numpy)
+python atividade_09_09\perceptron1.py
+
+# - perceptron2.py (3 entradas, função step, usa numpy)
+python atividade_09_09\perceptron2.py
 ```
 
 No bash/macOS:
