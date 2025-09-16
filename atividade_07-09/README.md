@@ -5,10 +5,8 @@
 Esta atividade tem por objetivo reproduzir e executar um exemplo simples de Perceptron em Python, analisar seu funcionamento e versionar o código em um repositório GitHub/GitLab.
 
 ## Checklist de requisitos
-- [ ] Baixar o código disponibilizado no PDF do professor.
 - [ ] Reproduzir o código e garantir que execute em Python.
 - [ ] Versionar o código no seu repositório GitHub (ou GitLab).
-- [ ] Postar o link do repositório no ULife até 07/09/2025 23:59.
 
 ## Objetivo
 Compreender, de forma aplicada, o funcionamento do Perceptron — um dos modelos mais simples de redes neurais artificiais — por meio da execução e análise do código em Python.
