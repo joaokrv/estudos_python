@@ -114,7 +114,12 @@ class Perceptron:
 
 ### Mudar as epochs faz diferença?
 
-Sim. Aumentar o número de epochs permite que o algoritmo atualize os pesos mais vezes sobre os mesmos exemplos, o que costuma levar a maior convergência (menos variação) nos pesos. Entretanto, o efeito depende também da taxa de aprendizado, da inicialização dos pesos e da separabilidade/ruído dos dados: se a taxa de aprendizado for alta pode haver oscilações mesmo com muitas epochs; se os dados não forem separáveis linearmente, aumentar epochs não resolverá o problema
+Sim. Mais epochs significam mais atualizações dos pesos e, em geral, maior convergência. Por exemplo, com `10` epochs os pesos podem não ter convergido; com `500` epochs geralmente haverá muito mais estabilidade nas atualizações (dependendo do problema).
+
+Observações rápidas:
+
+- Taxa de aprendizado: uma `learning rate` alta pode causar oscilações mesmo com muitas epochs; uma taxa muito baixa torna a convergência lenta.
+- Overfitting (ajuste excessivo): o modelo passa a memorizar ruído ou erros nos dados (dados ruidosos/inconsistentes), reduzindo sua capacidade de generalizar para novos exemplos.
 
 ### Diferença entre Step/Sigmoid
 
